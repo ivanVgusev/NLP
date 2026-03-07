@@ -1,0 +1,45 @@
+# Python byte code & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+*.cover
+.hypothesis/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+!.vscode/settings.json  # Keep shared settings
+.idea/                  # PyCharm
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.dll                   # Windows DLLs like xgboost.dll
+*.so                    # Linux shared objects
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Packaging
+build/
+dist/
+*.egg
+*.egg-info/
+*.whl
+
+# Logs & temp
+*.log
+.pickle
+tf_idf.npy              # Your data file - consider LFS or remove
+
+# Environment variables
+.env
+.env.local
